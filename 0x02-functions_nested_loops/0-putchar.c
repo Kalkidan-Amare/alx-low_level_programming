@@ -7,12 +7,12 @@
  */
 
 int main(void){
-	char iteam[]="_putchar"
-	int i;
-	for(i=0;i<8;i++){
-		_putchar(itema[i]);
+	char iteam[]="_putchar";
+	int i=0;
+	for(;i<8;i++){
+		_putchar(iteam[i]);
 	}
-	_putchar('\n')
+	_putchar('\n');
 			
 	return 0;
 }
