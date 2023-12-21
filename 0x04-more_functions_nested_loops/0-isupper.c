@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * _isupper - checks whether the upper or lower
  *@c: char to check
  *
