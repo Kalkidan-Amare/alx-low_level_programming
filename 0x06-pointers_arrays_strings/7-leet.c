@@ -8,7 +8,7 @@ char *leet(char *n)
 {
 	int i = 0, j;
 
-	char arr = "aAeEoOtTlL";
+	char arr[] = "aAeEoOtTlL";
 	char val[] = "4433007711";
 
 	while (n[i] != '\0')
