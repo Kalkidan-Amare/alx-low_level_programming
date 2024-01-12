@@ -21,9 +21,9 @@ int main(int argc, char *argv[])
 	int i;
 	int count = 0;
 	int coins[] = {25, 10, 5, 2, 1};
-	int num = atio(argv[1];
+	int num = atoi(argv[1];
 
-	for (i = 0; i < 5; i++)
+	for (i = 0; i < 5 && num > 0; i++)
 		if (coins[i] < num)
 		{
 			count += num / coins[i];
