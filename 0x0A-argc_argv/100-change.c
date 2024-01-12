@@ -21,6 +21,8 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
+	num = atoi(argv[1]);
+
 	if (num < 0)
 	{
 		printf("0\n");
@@ -28,7 +30,6 @@ int main(int argc, char *argv[])
 	}
 
 	count = 0;
-	num = atoi(argv[1];
 
 	for (i = 0; i < 5 && num > 0; i++)
 		if (coins[i] <= num)
