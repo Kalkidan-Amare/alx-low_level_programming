@@ -15,9 +15,6 @@ int main(int argc, char *argv[])
 	int i, num, count;
 	int coins[] = {25, 10, 5, 2, 1};
 
-	count = 0;
-	num = atoi(argv[1];
-
 	if (argc != 2)
 	{
 		printf("Error\n");
@@ -30,8 +27,11 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
+	count = 0;
+	num = atoi(argv[1];
+
 	for (i = 0; i < 5 && num > 0; i++)
-		if (coins[i] < num)
+		if (coins[i] <= num)
 		{
 			count += num / coins[i];
 			num %= coins[i];
